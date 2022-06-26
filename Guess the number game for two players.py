@@ -4,7 +4,6 @@ a_player = 0
 while True:
     a = int(input("Guess a number form 1 to 99:\n"))
     d=c
-    print(d)
     if a==d:
         a_player = a_player + 1
         print(f"Your guess is {a}\n")
@@ -25,7 +24,6 @@ z = random.randint(1,99)
 while True:
     b = int(input("Guess a number form 1 to 99\n"))
     e=z
-    print(e)
     if b==e:
         b_player = b_player + 1
         print(f"Your guess is {b}\n")
